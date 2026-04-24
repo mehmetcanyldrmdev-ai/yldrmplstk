@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yıldırım Plastik; plastik ve sanayi ürünlerinde kaliteli üretim, uygun fiyat ve zamanında teslimat sunan kurumsal ürün tanıtım sitesidir." />
+  <meta name="keywords" content="Yıldırım Plastik, plastik ürünler, sanayi ürünleri, plastik imalat, özel üretim plastik" />
+  <meta name="author" content="Yıldırım Plastik" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Yıldırım Plastik | Plastik ve Sanayi Ürünleri" />
+  <meta property="og:description" content="Kaliteli üretim, güvenilir hizmet ve özel plastik ürün çözümleri." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/og-image.svg" />
+  <meta property="og:locale" content="tr_TR" />
+
+  <title>Yıldırım Plastik | Plastik ve Sanayi Ürünleri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Ana menü">
+      <a class="brand" href="#top" aria-label="Yıldırım Plastik ana sayfa">
+        <span class="brand-mark">YP</span>
+        <span class="brand-text">Yıldırım Plastik</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Menüyü aç/kapat" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#about">Hakkımızda</a></li>
+        <li><a href="#products">Ürünler</a></li>
+        <li><a href="#why-us">Avantajlar</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="#contact">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="eyebrow">Plastik ve sanayi çözümleri</span>
+          <h1>Kaliteli üretimle markanıza güven katan plastik ürünler.</h1>
+          <p>Yıldırım Plastik olarak dayanıklı, estetik ve işlevsel plastik ürünleri modern üretim anlayışıyla müşterilerimize sunuyoruz.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#products">Ürünleri İncele</a>
+            <a class="btn btn-secondary" href="#contact">İletişime Geç</a>
+          </div>
+          <div class="hero-stats" aria-label="Firma öne çıkan bilgileri">
+            <div><strong>Kaliteli</strong><span>Üretim</span></div>
+            <div><strong>Hızlı</strong><span>Teslimat</span></div>
+            <div><strong>Özel</strong><span>Çözüm</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <img src="assets/images/hero-product.svg" alt="Yıldırım Plastik ürün tanıtım görseli" width="620" height="520" />
+          <div class="floating-card">
+            <strong>Kurumsal Üretim</strong>
+            <span>Sanayi standartlarına uygun ürün kalitesi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="container split-grid">
+        <div class="section-copy reveal">
+          <span class="section-kicker">Hakkımızda</span>
+          <h2>Güvenilir üretim, net iletişim, sürdürülebilir kalite.</h2>
+        </div>
+        <div class="about-text reveal">
+          <p>Yıldırım Plastik; plastik ve sanayi ürünlerinde kaliteyi, iş disiplinini ve müşteri memnuniyetini merkeze alan kurumsal bir üretim anlayışıyla hizmet verir.</p>
+          <p>Standart ürünlerin yanında ihtiyaca özel çözümler geliştirerek işletmelerin üretim ve tedarik süreçlerine değer katmayı hedefler.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="products section-pad" id="products">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Ürünler</span>
+          <h2>Ürün Gruplarımız</h2>
+          <p>Ürünleri `script.js` içindeki `products` listesinden kolayca düzenleyebilir, yeni ürün ekleyebilirsin.</p>
+        </div>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="why-us section-pad" id="why-us">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Neden Biz?</span>
+          <h2>İşinizi ciddiye alan üretim yaklaşımı.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span>01</span>
+            <h3>Kaliteli Üretim</h3>
+            <p>Ürünlerde dayanıklılık, düzenli kalite kontrol ve doğru malzeme seçimi önceliklidir.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span>02</span>
+            <h3>Uygun Fiyat</h3>
+            <p>İhtiyaca uygun üretim planlamasıyla rekabetçi ve sürdürülebilir fiyat politikası sunulur.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span>03</span>
+            <h3>Zamanında Teslimat</h3>
+            <p>Sipariş süreçleri planlı ilerler; müşteriye net ve güvenilir teslimat bilgisi verilir.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span>04</span>
+            <h3>Müşteri Odaklı Hizmet</h3>
+            <p>Talep, ölçü, adet ve kullanım alanına göre en doğru çözüm birlikte belirlenir.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section-pad" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Galeri</span>
+          <h2>Üretim ve ürün görselleri</h2>
+          <p>Placeholder görselleri kendi ürün fotoğraflarınla değiştirmen yeterli.</p>
+        </div>
+        <div class="gallery-grid">
+          <img class="reveal" src="assets/images/gallery-1.svg" alt="Plastik ürün galeri görseli 1" loading="lazy" />
+          <img class="reveal" src="assets/images/gallery-2.svg" alt="Plastik ürün galeri görseli 2" loading="lazy" />
+          <img class="reveal" src="assets/images/gallery-3.svg" alt="Plastik ürün galeri görseli 3" loading="lazy" />
+          <img class="reveal" src="assets/images/gallery-4.svg" alt="Plastik ürün galeri görseli 4" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-kicker">İletişim</span>
+          <h2>Teklif ve ürün bilgisi için bize ulaşın.</h2>
+          <p>Ürün, adet, ölçü veya özel üretim talebinizi paylaşın; en kısa sürede dönüş sağlayalım.</p>
+          <div class="contact-cards">
+            <a href="tel:+905XXXXXXXXX"><strong>Telefon</strong><span>+90 5XX XXX XX XX</span></a>
+            <a href="mailto:info@yildirimplastik.com"><strong>E-posta</strong><span>info@yildirimplastik.com</span></a>
+            <a href="https://wa.me/905XXXXXXXXX" target="_blank" rel="noopener"><strong>WhatsApp</strong><span>Hızlı iletişim</span></a>
+            <div><strong>Adres</strong><span>İstanbul / Türkiye</span></div>
+          </div>
+          <div class="map-card" aria-label="Google Maps alanı">
+            <iframe title="Yıldırım Plastik harita konumu" src="https://www.google.com/maps?q=Istanbul%20Turkey&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <label for="name">Ad Soyad</label>
+          <input id="name" name="name" type="text" placeholder="Adınızı yazın" required minlength="2" />
+
+          <label for="phone">Telefon</label>
+          <input id="phone" name="phone" type="tel" placeholder="+90 5XX XXX XX XX" required />
+
+          <label for="email">E-posta</label>
+          <input id="email" name="email" type="email" placeholder="ornek@mail.com" required />
+
+          <label for="message">Mesajınız</label>
+          <textarea id="message" name="message" rows="5" placeholder="Talebinizi kısaca yazın" required minlength="10"></textarea>
+
+          <button class="btn btn-primary" type="submit">Formu Gönder</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top"><span class="brand-mark">YP</span><span class="brand-text">Yıldırım Plastik</span></a>
+        <p>Plastik ve sanayi ürünlerinde kaliteli, güvenilir ve kurumsal üretim çözümleri.</p>
+      </div>
+      <div>
+        <h3>Menü</h3>
+        <a href="#about">Hakkımızda</a>
+        <a href="#products">Ürünler</a>
+        <a href="#contact">İletişim</a>
+      </div>
+      <div>
+        <h3>Sosyal Medya</h3>
+        <a href="#" aria-label="Instagram sayfası">Instagram</a>
+        <a href="#" aria-label="LinkedIn sayfası">LinkedIn</a>
+        <a href="#" aria-label="Facebook sayfası">Facebook</a>
+      </div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> Yıldırım Plastik. Tüm hakları saklıdır.</div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/905XXXXXXXXX" target="_blank" rel="noopener" aria-label="WhatsApp ile iletişime geç">WhatsApp</a>
+
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" type="button" data-close-modal aria-label="Modalı kapat">×</button>
+      <img id="modalImage" src="" alt="" />
+      <h2 id="modalTitle"></h2>
+      <p id="modalDescription"></p>
+      <div class="modal-columns">
+        <div>
+          <h3>Teknik Bilgiler</h3>
+          <ul id="modalSpecs"></ul>
+        </div>
+        <div>
+          <h3>Kullanım Alanları</h3>
+          <ul id="modalUses"></ul>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="#contact" data-close-modal>Teklif Al</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
